@@ -135,7 +135,10 @@ a:hover {
     align-items: center;
     gap: 20px;
     padding: 20px 5%;
-    border-bottom: 1px solid #24344d;
+    border-bottom: 1px solid #24344d;    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar .logo {
